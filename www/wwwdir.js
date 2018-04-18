@@ -31,12 +31,8 @@ server.on("request",function (req,res) {
             data=data.replace('{resData}',content);//字符串替换template的特殊标记
             //console.log(data);
             res.end(data)
-
         })
-
     })
-
-
 });
 
 server.listen(300,function(){
